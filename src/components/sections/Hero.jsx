@@ -15,9 +15,9 @@ export function Hero() {
           From complex data<br />to <em>clearer decisions.</em>
         </h1>
         <p className="hero-description">
-          I’m looking for a Data Analyst role where I can turn business questions
-          into reliable reporting and practical recommendations using Python,
-          SQL and interactive dashboards.
+          I’m looking for a Data Analyst role where I can use Python and SQL to
+          clean and analyse complex datasets, uncover patterns and communicate
+          findings through clear, interactive visualisations.
         </p>
         <div className="hero-actions">
           <a className="button button-primary" href="#work">

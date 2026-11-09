@@ -8,8 +8,8 @@ export function Projects() {
     <section className="work-section wrap" id="work" aria-labelledby="work-title">
       <div className="section-heading">
         <div>
-          <p className="eyebrow section-kicker">02 / SELECTED PROJECTS</p>
-          <h2 id="work-title">Selected projects.</h2>
+          <p className="eyebrow section-kicker">02 / PROJECTS</p>
+          <h2 id="work-title">Project highlights.</h2>
         </div>
       </div>
       <div className="project-grid featured-projects">
