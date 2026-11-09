@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1040" width="1200" height="1040" role="img" aria-labelledby="video-title video-desc">
+<title id="video-title">Video Event Search &amp; Automated Evaluation</title><desc id="video-desc">Ingestion: uploaded local video is chunked with FFmpeg and embedded with Gemini into one ChromaDB dense index. Query: question and history go through Google-hosted Gemma rewrite and Gemini query embedding, then Chroma top-five retrieval and Gemini 2.5 Flash answer generation. A separate personal evaluation lane builds annotation-based questions with Ollama and records judged metrics and CSV reports; annotations do not enter normal inference.</desc>
+<defs>
+ <linearGradient id="header" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#102744"/><stop offset="1" stop-color="#103637"/></linearGradient>
+ <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#10263d"/><stop offset="1" stop-color="#0a1829"/></linearGradient>
+ <marker id="arrow" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M1 1 10 6 1 11" fill="none" stroke="#72d6f0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></marker>
+ <marker id="mint-arrow" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M1 1 10 6 1 11" fill="none" stroke="#84e6cd" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></marker>
+ <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#18334b" stroke-width="1"/></pattern>
+</defs>
+<rect width="1200" height="1040" fill="#07101e"/>
+<rect x="12" y="12" width="1176" height="1016" rx="20" fill="url(#grid)" opacity=".32"/>
+<g font-family="Arial,Helvetica,sans-serif">
+<path d="M42 24H1158L1176 42V118L1158 136H42L24 118V42Z" fill="url(#header)" stroke="#72d6f0" stroke-width="2"/>
+<path d="M62 18H260M940 142H1138" stroke="#84e6cd" stroke-width="4"/>
+
+<text x="54" y="75" fill="#edf8ff" font-size="36" font-weight="600" text-anchor="start">Video Event Search &amp; Automated Evaluation</text>
+<text x="54" y="113" fill="#bfdaea" font-size="24" font-weight="400" text-anchor="start">Three runtime phases + a separate annotation-based evaluation workflow</text>
+<path d="M45 175H375L390 190V620L375 635H45L30 620V190Z" fill="url(#panel)" stroke="#477a9a" stroke-width="2"/><text x="52" y="215" fill="#c6eaf7" font-size="24" font-weight="600" text-anchor="start">01  INGEST &amp; INDEX</text>
+<path d="M435 175H765L780 190V620L765 635H435L420 620V190Z" fill="url(#panel)" stroke="#477a9a" stroke-width="2"/><text x="442" y="215" fill="#c6eaf7" font-size="24" font-weight="600" text-anchor="start">02  QUERY PROCESSING</text>
+<path d="M825 175H1155L1170 190V620L1155 635H825L810 620V190Z" fill="url(#panel)" stroke="#477a9a" stroke-width="2"/><text x="832" y="215" fill="#c6eaf7" font-size="24" font-weight="600" text-anchor="start">03  RETRIEVE &amp; ANSWER</text>
+<path d="M210 390V464" fill="none" stroke="#72d6f0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M600 390V464" fill="none" stroke="#72d6f0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M990 390V464" fill="none" stroke="#72d6f0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M370 536H398V648H796V324H824" fill="none" stroke="#72d6f0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M760 536H780V324H824" fill="none" stroke="#84e6cd" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#mint-arrow)"/>
+<rect x="438" y="636" width="300" height="30" rx="5" fill="#07101e"/>
+<text x="588" y="659" fill="#bfdaea" font-size="24" font-weight="400" text-anchor="middle">One dense video index</text>
+<rect x="50" y="258" width="320" height="132" rx="12" fill="#102b40" stroke="#6ea6c2" stroke-width="2"/><path d="M63 274V374" stroke="#72d6f0" stroke-width="4"/><text x="210.0" y="315.0" fill="#edf8ff" font-size="26" font-weight="600" text-anchor="middle">Uploaded video clips</text><text x="210.0" y="352.0" fill="#bfdaea" font-size="24" font-weight="400" text-anchor="middle">FFprobe · FFmpeg</text>
+<rect x="50" y="470" width="320" height="132" rx="12" fill="#102b40" stroke="#6ea6c2" stroke-width="2"/><path d="M63 486V586" stroke="#72d6f0" stroke-width="4"/><text x="210.0" y="527.0" fill="#edf8ff" font-size="26" font-weight="600" text-anchor="middle">768d video vectors</text><text x="210.0" y="564.0" fill="#bfdaea" font-size="24" font-weight="400" text-anchor="middle">Gemini → ChromaDB</text>
+<rect x="440" y="258" width="320" height="132" rx="12" fill="#102b40" stroke="#6ea6c2" stroke-width="2"/><path d="M453 274V374" stroke="#72d6f0" stroke-width="4"/><text x="600.0" y="315.0" fill="#edf8ff" font-size="26" font-weight="600" text-anchor="middle">Question + history</text><text x="600.0" y="352.0" fill="#bfdaea" font-size="24" font-weight="400" text-anchor="middle">Streamlit conversation</text>
+<rect x="440" y="470" width="320" height="132" rx="12" fill="#102b40" stroke="#6ea6c2" stroke-width="2"/><path d="M453 486V586" stroke="#72d6f0" stroke-width="4"/><text x="600.0" y="527.0" fill="#edf8ff" font-size="26" font-weight="600" text-anchor="middle">Gemma query rewrite</text><text x="600.0" y="564.0" fill="#bfdaea" font-size="24" font-weight="400" text-anchor="middle">Google API + query vector</text>
+<rect x="830" y="258" width="320" height="132" rx="12" fill="#102b40" stroke="#6ea6c2" stroke-width="2"/><path d="M843 274V374" stroke="#72d6f0" stroke-width="4"/><text x="990.0" y="315.0" fill="#edf8ff" font-size="26" font-weight="600" text-anchor="middle">ChromaDB top-five</text><text x="990.0" y="352.0" fill="#bfdaea" font-size="24" font-weight="400" text-anchor="middle">Video filter · recut clips</text>
+<rect x="830" y="470" width="320" height="132" rx="12" fill="#102b40" stroke="#6ea6c2" stroke-width="2"/><path d="M843 486V586" stroke="#72d6f0" stroke-width="4"/><text x="990.0" y="527.0" fill="#edf8ff" font-size="26" font-weight="600" text-anchor="middle">Gemini 2.5 Flash</text><text x="990.0" y="564.0" fill="#bfdaea" font-size="24" font-weight="400" text-anchor="middle">JSON · timed clip results</text>
+<path d="M45 705H1155L1170 720V945L1155 960H45L30 945V720Z" fill="#0d2c2b" stroke="#84e6cd" stroke-width="2"/><text x="52" y="745" fill="#84e6cd" font-size="24" font-weight="600" text-anchor="start">PERSONAL CONTRIBUTION · AUTOMATED EVALUATION</text>
+<rect x="57" y="789" width="345" height="130" rx="12" fill="#123a36" stroke="#84e6cd" stroke-width="2"/><path d="M70 805V903" stroke="#84e6cd" stroke-width="4"/><text x="229.5" y="845.0" fill="#edf8ff" font-size="26" font-weight="600" text-anchor="middle">Annotation cases</text><text x="229.5" y="882.0" fill="#bfdaea" font-size="24" font-weight="400" text-anchor="middle">Ollama Llama 3 questions</text>
+<rect x="797" y="789" width="345" height="130" rx="12" fill="#123a36" stroke="#84e6cd" stroke-width="2"/><path d="M810 805V903" stroke="#84e6cd" stroke-width="4"/><text x="969.5" y="845.0" fill="#edf8ff" font-size="26" font-weight="600" text-anchor="middle">Judged results + CSV</text><text x="969.5" y="882.0" fill="#bfdaea" font-size="24" font-weight="400" text-anchor="middle">Ollama Gemma 4 judge</text>
+<path d="M408 853H791" fill="none" stroke="#84e6cd" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#mint-arrow)"/>
+<rect x="438" y="810" width="324" height="88" rx="8" fill="#0d2c2b"/>
+<text x="600" y="846" fill="#84e6cd" font-size="24" font-weight="400" text-anchor="middle">Run the same product</text>
+<text x="600" y="877" fill="#bfdaea" font-size="24" font-weight="400" text-anchor="middle">Parse, judge, record time</text>
+<text x="45" y="1005" fill="#a8c6d8" font-size="20" font-weight="400" text-anchor="start">Source: core_backend/video_pipeline.py · llm_pipeline.py · eval/video_eval.py</text>
+</g></svg>

@@ -1,0 +1,60 @@
+/* About and capabilities */
+.about-section {
+  padding-block: 80px;
+  background: var(--surface);
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+.about-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 88px;
+}
+.about-copy h2 {
+  font-size: clamp(30px, 3vw, 38px);
+  letter-spacing: -1px;
+  line-height: 1.25;
+}
+.about-copy h2 em {
+  font-family: inherit;
+  font-style: normal;
+  color: var(--accent);
+}
+.about-copy > p:not(.eyebrow) {
+  margin-top: 24px;
+  color: var(--muted);
+  font-size: 17px;
+  line-height: 1.85;
+}
+.skills-list {
+  padding-top: 7px;
+}
+.skill-group {
+  display: flex;
+  gap: 22px;
+  padding-block: 25px;
+  border-top: 1px solid var(--line);
+}
+.skill-group:last-child {
+  border-bottom: 1px solid var(--line);
+}
+.skill-number {
+  color: var(--accent);
+  font-size: 15px;
+  line-height: 1.7;
+}
+.skill-group h3 {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 8px;
+}
+.skill-group p {
+  color: #d0e0ed;
+  font-size: 16px;
+  line-height: 1.8;
+}
+.skill-group p.skill-context {
+  color: var(--muted);
+  font-size: 15px;
+  margin-top: 7px;
+}

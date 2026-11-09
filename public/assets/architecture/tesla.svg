@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" width="1200" height="760" role="img" aria-labelledby="tesla-title tesla-desc">
+<title id="tesla-title">Tesla Market Research &amp; Customer Insights</title><desc id="tesla-desc">MARKET RESEARCH: Secondary sources — Market + value context, Research framing — Customer questions; REVIEW ANALYSIS: Data-quality checks — Missing + duplicate text, Sentiment + themes — VADER · rating checks; RESEARCH OUTPUTS: Survey proposal — Importance + satisfaction, Canva poster — Research communication</desc>
+<defs>
+ <linearGradient id="header" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#102744"/><stop offset="1" stop-color="#103637"/></linearGradient>
+ <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#10263d"/><stop offset="1" stop-color="#0a1829"/></linearGradient>
+ <marker id="arrow" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M1 1 10 6 1 11" fill="none" stroke="#72d6f0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></marker>
+ <marker id="mint-arrow" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M1 1 10 6 1 11" fill="none" stroke="#84e6cd" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></marker>
+ <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#18334b" stroke-width="1"/></pattern>
+</defs>
+<rect width="1200" height="760" fill="#07101e"/>
+<rect x="12" y="12" width="1176" height="736" rx="20" fill="url(#grid)" opacity=".32"/>
+<g font-family="Arial,Helvetica,sans-serif">
+<path d="M42 24H1158L1176 42V118L1158 136H42L24 118V42Z" fill="url(#header)" stroke="#72d6f0" stroke-width="2"/>
+<path d="M62 18H260M940 142H1138" stroke="#84e6cd" stroke-width="4"/>
+
+<text x="54" y="75" fill="#edf8ff" font-size="36" font-weight="600" text-anchor="start">Tesla Market Research &amp; Customer Insights</text>
+<text x="54" y="113" fill="#bfdaea" font-size="24" font-weight="400" text-anchor="start">Market framing → review analysis → research communication</text>
+<path d="M45 175H375L390 190V620L375 635H45L30 620V190Z" fill="url(#panel)" stroke="#477a9a" stroke-width="2"/><text x="52" y="215" fill="#c6eaf7" font-size="24" font-weight="600" text-anchor="start">01  MARKET RESEARCH</text>
+<path d="M435 175H765L780 190V620L765 635H435L420 620V190Z" fill="url(#panel)" stroke="#477a9a" stroke-width="2"/><text x="442" y="215" fill="#c6eaf7" font-size="24" font-weight="600" text-anchor="start">02  REVIEW ANALYSIS</text>
+<path d="M825 175H1155L1170 190V620L1155 635H825L810 620V190Z" fill="url(#panel)" stroke="#477a9a" stroke-width="2"/><text x="832" y="215" fill="#c6eaf7" font-size="24" font-weight="600" text-anchor="start">03  RESEARCH OUTPUTS</text>
+<path d="M210 390V465" fill="none" stroke="#72d6f0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M370 536H405.0V324H435" fill="none" stroke="#72d6f0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M600 390V465" fill="none" stroke="#72d6f0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M760 536H795.0V324H825" fill="none" stroke="#72d6f0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M990 390V465" fill="none" stroke="#72d6f0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="50" y="258" width="320" height="132" rx="12" fill="#102b40" stroke="#6ea6c2" stroke-width="2"/><path d="M63 274V374" stroke="#72d6f0" stroke-width="4"/><text x="210.0" y="315.0" fill="#edf8ff" font-size="26" font-weight="600" text-anchor="middle">Secondary sources</text><text x="210.0" y="352.0" fill="#bfdaea" font-size="24" font-weight="400" text-anchor="middle">Market + value context</text>
+<rect x="50" y="470" width="320" height="132" rx="12" fill="#102b40" stroke="#6ea6c2" stroke-width="2"/><path d="M63 486V586" stroke="#72d6f0" stroke-width="4"/><text x="210.0" y="527.0" fill="#edf8ff" font-size="26" font-weight="600" text-anchor="middle">Research framing</text><text x="210.0" y="564.0" fill="#bfdaea" font-size="24" font-weight="400" text-anchor="middle">Customer questions</text>
+<rect x="440" y="258" width="320" height="132" rx="12" fill="#102b40" stroke="#6ea6c2" stroke-width="2"/><path d="M453 274V374" stroke="#72d6f0" stroke-width="4"/><text x="600.0" y="315.0" fill="#edf8ff" font-size="26" font-weight="600" text-anchor="middle">Data-quality checks</text><text x="600.0" y="352.0" fill="#bfdaea" font-size="24" font-weight="400" text-anchor="middle">Missing + duplicate text</text>
+<rect x="440" y="470" width="320" height="132" rx="12" fill="#102b40" stroke="#6ea6c2" stroke-width="2"/><path d="M453 486V586" stroke="#72d6f0" stroke-width="4"/><text x="600.0" y="527.0" fill="#edf8ff" font-size="26" font-weight="600" text-anchor="middle">Sentiment + themes</text><text x="600.0" y="564.0" fill="#bfdaea" font-size="24" font-weight="400" text-anchor="middle">VADER · rating checks</text>
+<rect x="830" y="258" width="320" height="132" rx="12" fill="#102b40" stroke="#6ea6c2" stroke-width="2"/><path d="M843 274V374" stroke="#72d6f0" stroke-width="4"/><text x="990.0" y="315.0" fill="#edf8ff" font-size="26" font-weight="600" text-anchor="middle">Survey proposal</text><text x="990.0" y="352.0" fill="#bfdaea" font-size="24" font-weight="400" text-anchor="middle">Importance + satisfaction</text>
+<rect x="830" y="470" width="320" height="132" rx="12" fill="#102b40" stroke="#6ea6c2" stroke-width="2"/><path d="M843 486V586" stroke="#72d6f0" stroke-width="4"/><text x="990.0" y="527.0" fill="#edf8ff" font-size="26" font-weight="600" text-anchor="middle">Canva poster</text><text x="990.0" y="564.0" fill="#bfdaea" font-size="24" font-weight="400" text-anchor="middle">Research communication</text>
+<text x="45" y="704" fill="#bfdaea" font-size="24" font-weight="400" text-anchor="start">Methods: market analysis · data quality · NLP · research design.</text>
+<text x="45" y="739" fill="#a8c6d8" font-size="20" font-weight="400" text-anchor="start">Source: review_analysis/tesla_customer_review_nlp.ipynb · research poster</text>
+</g></svg>

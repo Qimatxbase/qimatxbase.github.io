@@ -1,0 +1,126 @@
+/* Career history: one connected timeline, with details beside each role. */
+.experience-section {
+  padding-block: 64px 80px;
+  border-top: 1px solid var(--line);
+}
+.experience-section-heading {
+  margin-bottom: 48px;
+  text-align: center;
+}
+.experience-section-heading h2 {
+  font-size: clamp(32px, 3.2vw, 42px);
+  letter-spacing: -1.2px;
+  line-height: 1.2;
+}
+.experience-timeline {
+  position: relative;
+  max-width: 1010px;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+.experience-timeline::before {
+  position: absolute;
+  top: 7px;
+  bottom: 0;
+  left: 43%;
+  width: 1px;
+  background: var(--line);
+  content: '';
+}
+.timeline-item {
+  position: relative;
+  display: grid;
+  grid-template-columns: 43% minmax(0, 1fr);
+  min-width: 0;
+  padding-bottom: 44px;
+}
+.timeline-item:last-child {
+  padding-bottom: 0;
+}
+.timeline-item::before {
+  position: absolute;
+  top: 6px;
+  left: 43%;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 0 6px var(--background);
+  transform: translateX(-50%);
+  content: '';
+}
+.timeline-role {
+  min-width: 0;
+  padding-right: 48px;
+}
+.timeline-role h3 {
+  font-size: 21px;
+  line-height: 1.45;
+  letter-spacing: -0.35px;
+}
+.timeline-company {
+  margin-top: 7px;
+  color: var(--accent);
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.6;
+}
+.timeline-location,
+.timeline-context {
+  margin-top: 7px;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.7;
+}
+.timeline-context {
+  margin-top: 3px;
+}
+.timeline-detail {
+  min-width: 0;
+  padding-left: 48px;
+}
+.timeline-dates {
+  color: var(--ink);
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.8;
+}
+.timeline-dates time:first-child {
+  color: var(--accent);
+}
+.timeline-duties {
+  margin: 16px 0 0;
+  padding-left: 18px;
+  color: var(--muted);
+  font-size: 16px;
+  line-height: 1.85;
+}
+.timeline-duties li + li {
+  margin-top: 8px;
+}
+.timeline-duties li::marker {
+  color: var(--accent);
+}
+@media (max-width: 950px) {
+  .timeline-role { padding-right: 30px; }
+  .timeline-detail { padding-left: 30px; }
+  .timeline-role h3 { font-size: 19px; }
+}
+@media (max-width: 700px) {
+  .experience-section { padding-block: 38px 52px; }
+  .experience-section-heading { margin-bottom: 30px; }
+  .experience-section-heading h2 { font-size: 32px; }
+  .experience-timeline::before { left: 7px; }
+  .timeline-item {
+    display: block;
+    padding-left: 32px;
+    padding-bottom: 36px;
+  }
+  .timeline-item::before { left: 7px; }
+  .timeline-role { padding-right: 0; }
+  .timeline-role h3 { font-size: 20px; }
+  .timeline-detail { padding-left: 0; margin-top: 15px; }
+  .timeline-dates { font-size: 14px; }
+  .timeline-duties { margin-top: 13px; font-size: 16px; }
+}
