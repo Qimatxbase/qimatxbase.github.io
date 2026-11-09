@@ -9,9 +9,7 @@ export const caseStudies = {
     },
     "summary": "A dashboard for exploring crash hotspots, time patterns and local risk factors through connected views and filters.",
     "context": [
-      "UTS 36104 · Assessment 3 · Group 22",
-      "Lead Developer",
-      "Public source"
+      "UTS 36104 · Assessment 3 · Group 22"
     ],
     "scope": "The team assessment uses 18,939 crash records across 130 NSW local government areas. Five dashboard views cover overview, hotspots, temporal risk, external conditions and decisions.",
     "contribution": "The technical documentation credits me as Lead Developer. I worked on the core Streamlit application, workflow integration, interactive controls, hotspot and time-pattern analysis, and maps. The analysis and deliverable retain the team’s source credits.",
@@ -39,8 +37,7 @@ export const caseStudies = {
     "title": "Airbnb & Census reporting pipeline",
     "summary": "A structured ingestion and transformation workflow that turns monthly Airbnb files and Census reference data into reporting marts.",
     "context": [
-      "Big Data Engineering · Assignment 3",
-      "Public source"
+      "Big Data Engineering · Assignment 3"
     ],
     "scope": "The assessment connects 12 monthly Airbnb observations from May 2020 to April 2021 with the 2016 Census and NSW local-government mapping files. It contains 18 dbt models and three reporting marts covering listing neighbourhoods, host neighbourhoods and property types.",
     "contribution": "This is my individual Big Data Engineering Assignment 3, originally submitted in October 2025. The cleaned portfolio version retains the original reporting questions while correcting how source observation dates and monthly history are handled.",
@@ -70,8 +67,7 @@ export const caseStudies = {
     "summary": "A repeatable way to examine whether a video-querying system retrieves a relevant event and places its answer in the correct time range.",
     "context": [
       "UTS 36105 iLab · Group 15",
-      "Semester 1, 2026",
-      "Public source"
+      "Semester 1, 2026"
     ],
     "scope": "The wider capstone is a team video-search application using multimodal retrieval-augmented generation. My contribution is the annotation-grounded evaluation component, shown alongside the wider team retrieval and conversational system.",
     "contribution": "I designed and implemented the automated evaluation pipeline using an annotation file as the reference. The workflow reads the video name, event description and annotated start/end times, then runs evaluation cases and records quality and timing information.",
@@ -100,8 +96,7 @@ export const caseStudies = {
     "summary": "Simulation experiments exploring depth-based navigation, staged learning and explicit arrival evaluation.",
     "context": [
       "PPO · PyBullet simulation",
-      "Adapted team & upstream work",
-      "Public source"
+      "Adapted team & upstream work"
     ],
     "scope": "The project adapts credited drone research code to explore PPO navigation using depth/state observations, navigation rewards and an easy-to-medium-to-hard curriculum. A separate precision-arrival experiment examines a five-centimetre goal condition.",
     "contribution": "This portfolio presents my work within a collaborative, adapted research prototype. The environment and wider drone code build on the team’s AutoPilotDrone project and the gym-pybullet-drones library; they are not presented as solely authored components.",
@@ -129,8 +124,7 @@ export const caseStudies = {
     "summary": "A contribution to a team comparison of person retrieval across cameras and clothing changes on the MEVID benchmark.",
     "context": [
       "UTS 42177 · Team 8",
-      "My contribution: OSNet",
-      "Public source"
+      "My contribution: OSNet"
     ],
     "scope": "The team compared BoT-ResNet50, AGW-ResNet50-IBN and OSNet-based methods with shared data and evaluation protocols. The project examines general, same-outfit and cross-outfit retrieval.",
     "contribution": "I prepared the OSNet training configuration and dataset, trained and evaluated the OSNet model, and analysed Rank-1 and mean Average Precision results. The retained OSNet work is implemented in research notebooks and training/evaluation scripts; the reusable application integration remains partial.",
@@ -155,23 +149,24 @@ export const caseStudies = {
   "tesla": {
     "kicker": "MARKET RESEARCH & CUSTOMER INSIGHTS",
     "title": "Tesla Market Research & Customer Insights",
-    "summary": "An integrated project connecting market research, customer-review NLP and research design, communicated through an original research poster.",
+    "summary": "An AI-assisted study of existing customer reviews, using VADER sentiment, thematic coding and rating checks to validate findings alongside market research and survey design.",
     "context": [
       "UTS · Data-Driven Insights",
       "Individual project",
       "Market research · NLP · Research design"
     ],
-    "scope": "The project examines market positioning and the value proposition through secondary research, then develops a customer-insights workflow using data-quality checks, NLP, VADER sentiment, thematic analysis and rating validation. The analysis informs a proposed primary-research survey.",
-    "contribution": "I combined secondary market research, Python-based review analysis and a Canva poster to frame questions about Tesla’s ownership experience and prioritise follow-up research.",
+    "scope": "The project combines secondary market research with AI-assisted analysis of existing customer reviews. VADER sentiment analysis, thematic coding, star-rating comparisons and data-quality checks provide cross-checks and validation before findings inform a proposed owner survey.",
+    "contribution": "I used AI to support review analysis, then cross-checked and validated findings with VADER sentiment, thematic coding and data-quality checks. I connected these findings with secondary market research and a Canva poster to frame questions about Tesla’s ownership experience.",
     "methods": [
-      "Examined market positioning and the value proposition using secondary sources.",
-      "Checked missing values and duplicate text to assess data quality before analysis.",
-      "Applied NLP and VADER sentiment analysis, cross-checking sentiment against star ratings.",
-      "Organised themes around driving, technology, charging and service to structure customer-insight questions.",
+      "Used secondary sources to examine the Australian EV market, Tesla’s positioning and its value proposition.",
+      "Applied AI-assisted analysis to existing customer reviews to identify candidate findings and themes.",
+      "Cross-checked AI-assisted findings with VADER sentiment analysis and thematic coding.",
+      "Compared sentiment with star ratings and inspected missing values and duplicate text to validate data quality.",
+      "Structured themes around driving, technology, charging and service to guide customer-insight questions.",
       "Designed a proposed 5–7-point Likert survey comparing attribute importance and satisfaction."
     ],
     "noteTitle": "Data & research design",
-    "limits": "The NLP component uses GenAI-generated review data; the owner survey is a proposed research design.",
+    "limits": "AI supported analysis of existing review data. VADER sentiment, thematic coding and rating checks were used to cross-check and validate findings. The owner survey remains a proposed research design.",
     "poster": "./assets/tesla-insights-poster.pdf",
     "credits": "UTS 24761 Data-Driven Insights. Canva poster by Khanh Hoang Nguyen. The poster retains its original source and image credits. Related code: public ev_customer_insights portfolio repository.",
     "repository": "ev_customer_insights",
@@ -181,8 +176,9 @@ export const caseStudies = {
       "NLTK",
       "VADER",
       "Market research",
-      "GenAI",
+      "AI-assisted analysis",
       "NLP",
+      "Thematic coding",
       "Survey design",
       "Customer insights"
     ],
@@ -193,8 +189,7 @@ export const caseStudies = {
     "title": "Livestock Video Counter",
     "summary": "An uploaded-video workflow that detects and tracks pigs, counts line crossings and produces annotated video.",
     "context": [
-      "Computer-vision prototype",
-      "Public source"
+      "Computer-vision prototype"
     ],
     "scope": "The Streamlit app combines a PigDetect-trained YOLOv8 detector, persistent track IDs and configurable line-crossing logic. Users can inspect counts and download an annotated version of their uploaded video.",
     "contribution": "Portfolio detection, tracking and video-counting workflow; course provenance and a complete individual contribution split are not established.",
@@ -222,8 +217,7 @@ export const caseStudies = {
     "title": "News Aggregator Dashboard",
     "summary": "A news collection and reporting application combining a Flask API with a React dashboard.",
     "context": [
-      "Full-stack data prototype",
-      "Public source"
+      "Full-stack data prototype"
     ],
     "scope": "One application combines the original Flask backend and React frontend. It collects articles, prepares a common data structure, stores records in MongoDB and exposes API endpoints for reporting views.",
     "contribution": "Combined backend/frontend code sample with both original development histories retained; course attribution and complete individual ownership are not established.",
@@ -251,8 +245,7 @@ export const caseStudies = {
     "title": "Reinforcement Learning Control Benchmarks",
     "summary": "Control experiments comparing DQN, PPO and tabular Q-learning across CartPole, Breakout and Pendulum.",
     "context": [
-      "UTS 43008 · Assignment 2",
-      "Public source"
+      "UTS 43008 · Assignment 2"
     ],
     "scope": "UTS 43008 Assignment 2 compares DQN and PPO on CartPole and Breakout, alongside discretised Q-learning on Pendulum. Canonical assessment notebooks and distinct experiment variants are retained separately.",
     "contribution": "Khanh Hoang Nguyen’s individual UTS 43008 Reinforcement Learning Assignment 2; library/environment authors retain their credits.",
@@ -278,8 +271,7 @@ export const caseStudies = {
     "title": "Call Your Shot — CYS Solar",
     "summary": "A solar-sharing prototype connecting household assessment, tenant/landlord workflows and financial estimates.",
     "context": [
-      "Team hackathon prototype",
-      "Public source"
+      "Team hackathon prototype"
     ],
     "scope": "The hackathon team connected household solar assessment with tenant and landlord journeys, proposals and financial feasibility estimates. The Next.js frontend and FastAPI backend form one combined CYS Solar project.",
     "contribution": "Team hackathon work; the frontend and backend are one project, with original Call-your-shot team credits retained. No exact personal module division is verified.",
@@ -306,8 +298,7 @@ export const caseStudies = {
     "title": "CreatorTrust Shield — IAG Hackathon",
     "summary": "An evidence-framing dashboard and pitch exploring creator identity risk and a cyber-insurance opportunity.",
     "context": [
-      "Team hackathon dashboard and pitch",
-      "Public source"
+      "Team hackathon dashboard and pitch"
     ],
     "scope": "An IAG hackathon concept for Australian creator cyber insurance, presented through a three-view Streamlit dashboard and supporting pitch materials. The implemented views examine market opportunity, cyber risk and creator impact.",
     "contribution": "IAG hackathon prototype and pitch materials; no exact individual module ownership is established.",
@@ -339,8 +330,7 @@ export const caseStudies = {
     },
     "summary": "AI-assisted infrastructure design studies presented through technical reports, visuals and trade-off comparisons.",
     "context": [
-      "Team hackathon design/report submission",
-      "Public source"
+      "Team hackathon design/report submission"
     ],
     "scope": "The UTS Tech Festival 2026 submission examines three concepts: a sustainable house, a future worksite and a smart intersection. Its deliverables are design studies, presentation visuals and a compiled technical report.",
     "contribution": "Participated in the UTS Tech Festival 2026 team concept-development submission, recognised with the State Asphalts Intelligent Transport Solutions Award. The repository retains shared team attribution.",
@@ -366,8 +356,7 @@ export const caseStudies = {
     "title": "Vineyard AI Monitor",
     "summary": "An RGB-image analysis workflow that organises vineyard canopy coverage, unusual regions and possible gaps into an inspection map.",
     "context": [
-      "Team agricultural hackathon prototype",
-      "Public source"
+      "Team agricultural hackathon prototype"
     ],
     "scope": "A CPU-only RGB-image pipeline estimates visible canopy, screens row-supported gaps and summarises unusual regions. An interactive image-relative inspection map connects the resulting indicators with selected crops and exports.",
     "contribution": "Hackathon team prototype. Generic four-person role descriptions exist, but the repository does not identify Hoang with a specific module-owner role.",

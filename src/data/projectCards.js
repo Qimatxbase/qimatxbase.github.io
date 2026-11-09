@@ -82,7 +82,7 @@ export const projectCards = [
     "featured": true,
     "order": 4,
     "title": "Tesla Market Research & Customer Insights",
-    "description": "A research study connecting secondary market research with customer-review NLP, sentiment analysis, rating validation and research design.",
+    "description": "AI-assisted analysis of existing customer reviews, cross-checked with VADER sentiment, thematic coding and rating validation to support market research and survey design.",
     "kicker": "MARKET RESEARCH & CUSTOMER INSIGHTS",
     "cardTools": [
       "Python",

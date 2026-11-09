@@ -18,7 +18,7 @@ export const architectures = {
   },
   tesla: {
     title: "Market research & customer-insight workflow",
-    flow: "Secondary market research and review data → pandas quality checks → VADER sentiment, ratings and themes → insight reporting → survey proposal and Canva poster.",
-    focus: "Research context, analytical methods and communication form one connected study.",
+    flow: "Secondary market research and existing reviews → AI-assisted analysis → VADER sentiment, thematic coding and rating checks → cross-checked findings → survey proposal and Canva poster.",
+    focus: "AI supports analysis; VADER, thematic coding and data-quality checks provide cross-checks before research communication.",
   },
 };
