@@ -130,6 +130,10 @@ test("education is visible near the introduction before experience on desktop an
     await expect(education).toBeVisible();
     await expect(education).toContainText("Master of Data Science and Innovation");
     await expect(education).toContainText("University of Technology Sydney");
+    await expect(education).toContainText("Bachelor of Science (Honours) in Computing");
+    await expect(education).toContainText("University of Greenwich");
+    await expect(education).toContainText("September 2019");
+    await expect(education).toContainText("September 2023");
     await expect(education).not.toContainText(/GPA|6\.67/i);
     expect(await education.evaluate((element) => Boolean(element.compareDocumentPosition(document.querySelector("#experience")) & Node.DOCUMENT_POSITION_FOLLOWING))).toBe(true);
     await expect(page.locator("#about").getByText("Master of Data Science and Innovation", { exact: true })).toHaveCount(0);

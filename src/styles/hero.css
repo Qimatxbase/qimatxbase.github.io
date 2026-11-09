@@ -134,13 +134,23 @@ h1 em {
 .education-card-top svg {
   flex-shrink: 0;
 }
+.education-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.education-entry + .education-entry {
+  margin-top: 24px;
+  padding-top: 24px;
+  border-top: 1px solid var(--line);
+}
 .education-institution {
   margin-bottom: 12px;
   color: var(--muted);
   font-size: 16px;
   line-height: 1.7;
 }
-.education-card h2 {
+.education-entry h3 {
   font-size: 25px;
   line-height: 1.4;
   letter-spacing: -0.5px;
